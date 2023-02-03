@@ -93,24 +93,36 @@ body{
     padding: 0px 0px;
 }
 
-.flex{
+.about{
+    border: 2px solid;
+    border-radius: 70px;
+    height: 390px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color:rgb(84, 199, 237) ;
+}
+
+.flex1{
     height: 500px;
-    width: 100%;
+    width: 80%;
     /* border: 2px solid royalblue; */
-    color: aliceblue;
-    margin-top: 150px;
-    /* margin-left: 150px; */
     display: flex;
+    color: aliceblue;
+    margin-top: 300px;
+    margin: 120px auto;
+    /* margin-left: 150px; */
     /* flex-direction: row; */
     /* flex-direction: column; */
     /* flex-direction: row-reverse; */
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     /* flex-wrap: wrap-reverse; */
-    /* justify-content: center; */
+    justify-content: center;
     /* justify-content: space-between; */
-    justify-content: space-around;
-    /* align-items: center; */
-    align-items: flex-end;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* align-items: flex-end; */
 }
 
 .items{
@@ -121,4 +133,32 @@ body{
     margin: 10px;
     padding: 2px;
     
+}
+
+.about{
+    text-align: center;
+
+}
+
+.about img{
+    width: 200px;
+    margin: auto;
+}
+
+.photu{
+    display: flex;
+    align-content: center;
+    padding-top: 15px;
+    border-radius: 125px;
+}
+
+.name{
+    background-color:antiquewhite ;
+    color: midnightblue;
+}
+
+.linkedin{
+    color: midnightblue;
+    text-decoration: none;
+    cursor: pointer;
 }
