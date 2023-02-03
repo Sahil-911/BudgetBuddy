@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="categories.css">
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-3d.js"></script>
     <title>Home</title>
 </head>
 <body>
@@ -35,14 +37,56 @@
             </p>
         </div>
 
-        <!-- <div class="flex">
-            <div class="items" id="box-1">First Box</div>
-            <div class="items" id="box-2">Second Box</div>
-            <div class="items" id="box-3">Third Box</div>
-            <div class="items" id="box-4">Fourth Box</div>
-            <div class="items" id="box-5">Fifth Box</div>
-            <div class="items" id="box-6">Sixth Box</div>
-        </div> -->
-    </header>
+
+        <!-- from Highchart.com -->
+        <div class="chart">
+        <div id="container" style="height: 400px"  ></div>
+
+            <script>
+                Highcharts.chart('container', {
+            chart: {
+              type: 'pie',
+              options3d: {
+                enabled: true,
+                alpha: 45
+              }
+            },
+            title: {
+              text: 'Expances category'
+            },
+            subtitle: {
+              text: '3D donut in Highcharts'
+            },
+            plotOptions: {
+              pie: {
+                innerSize: 100,
+                depth: 45
+            }
+        },
+        series: [{
+            name: 'Delivered amount',
+            data: [
+                
+                ['Entertainment', 3000],
+                ['Travelling', 1090],
+                ['Health', 310],
+                ['Food', 7000],
+                ['Shopping',2600],
+                ['Others', 250]
+            ]
+        }]
+    });
+    </script>
+    </div>
+
+<!-- <div class="flex">
+    <div class="items" id="box-1">First Box</div>
+    <div class="items" id="box-2">Second Box</div>
+    <div class="items" id="box-3">Third Box</div>
+    <div class="items" id="box-4">Fourth Box</div>
+    <div class="items" id="box-5">Fifth Box</div>
+    <div class="items" id="box-6">Sixth Box</div>
+</div> -->
+</header>
 </body>
 </html>

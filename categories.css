@@ -122,3 +122,12 @@ body{
     padding: 2px;
     
 }
+
+
+#container{
+    margin: 10px 10px 10px 10px !important;
+    padding: 140px 10px 10px 10px !important;
+    background-color: rgba(255, 254, 254, 0) !important;
+    /* display: inline !important ; */
+    
+}
