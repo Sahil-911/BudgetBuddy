@@ -147,9 +147,42 @@ body{
 
 .history{
     font-size: larger;
-    margin: 1px auto;
-    padding: 10px 10px;
-    border: 1px solid red;
-    height: 600px;
-    width: 800px;
+    margin: 30px auto;
+    padding: 21px 21px;
+    border: 8px solid aliceblue;
+    border-style: double;
+    box-shadow:blanchedalmond ;
+    border-radius: 15px;
+    height: 580px;
+    width: 900px;
 }
+
+.trahis{
+    border: 3px solid darkblue;
+    text-align: center;
+    color:darkblue ;
+    border-radius: 10px;
+    background-color: aliceblue;
+    font-size: x-large;
+    margin: 10px auto;
+    margin-bottom: 40px;
+    padding: 10px 10px;
+}
+
+.tra{
+    border-radius: 5px;
+    border: 1px solid wheat;
+    background-color:rgb(226, 178, 57) ;
+    color: brown;
+    margin: 8px auto;
+    padding: 10px 10px;
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    width: 800px;
+    height: 400px;
+    overflow: auto;
+    margin: auto;
+    /* color: cornflowerblue; */
+  }

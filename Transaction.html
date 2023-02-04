@@ -37,10 +37,38 @@
         </p>
         </div>
 
-        <div class="history">
-            Transaction History:
-            <div class="tra"> -50 from Food </div>
+        <div class="history" >
+            <div class="trahis">
+                Transaction History:
+            </div>
+            <div class="my-custom-scrollbar my-custom-scrollbar-primary">
+                <div class="tra"> -50 from Food Category</div>
+                <div class="tra"> -220 from Shopping Category</div>
+                <div class="tra" style="color:green"> +150 from Raju</div>
+                <div class="tra"> -55 from Travel Category</div>
+                <div class="tra"> -60 from Food Category</div>
+                <div class="tra" style="color:green"> +45 from Baburao</div>
+                <div class="tra" style="color:green"> +100 from Shyam</div>
+                <div class="tra"> -20 from Food Category</div>
+                <div class="tra"> -150 from Travel Category</div>
+                <div class="tra"> -69 from Shopping Category</div>
+                <div class="tra" style="color:green"> +50 from Skyler White Yo</div>
+                <div class="tra"> -55 from Travel Category</div>
+                <div class="tra"> -11 from Other Category</div>
+                <div class="tra"> -85 from Food Category</div>
+            </div>
         </div>
+
+        <script>
+            var myCustomScrollbar = document.querySelector('.my-custom-scrollbar');
+            var ps = new PerfectScrollbar(myCustomScrollbar);
+
+            var scrollbarY = myCustomScrollbar.querySelector('.ps__rail-y');
+
+            myCustomScrollbar.onscroll = function () {
+            scrollbarY.style.cssText = `top: ${this.scrollTop}px!important; height: 400px; right: ${-this.scrollLeft}px`;
+            }
+        </script>
 
         <!-- <div class="flex">
             <div class="items" id="box-1">First Box</div>
