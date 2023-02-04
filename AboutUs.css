@@ -1,0 +1,186 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: url("https://www.pixelstalk.net/wp-content/uploads/2016/07/Free-Download-Plain-Wallpaper-HD.jpg") ;
+
+}
+
+.left{
+    color: white;
+    display: inline-block;
+    position: absolute;
+    margin: 0px auto;
+    padding: 0px 10px;
+    left: 20px;
+    top:20px;
+}
+
+.mid{
+    color: white;
+    /* border: solid green; */
+    display:block;
+    width: 60%;
+    margin: 12px auto; 
+}
+.right{
+    color: white;
+    /* border: solid yellow; */
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top:20px;
+}
+
+.signout{
+    text-align: right;
+    font-size: large;
+
+}
+.signout a{
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 1px 1px;
+    padding: 4px 7px;
+    color: rgb(5, 14, 128);
+    background-color: rgba(1, 100, 136, 0);
+    border: 2px solid rgb(5, 14, 128);
+    
+}
+
+.signout a:hover{
+    background-color: rgb(5, 14, 128);
+    color: rgb(1, 100, 136);
+    border: 2px solid rgb(1, 100, 136);
+}
+
+.left img{
+    margin: 0px auto;
+    width: 80px;
+    filter: invert(100%);
+}
+
+.mid ul{
+    text-decoration: none;
+    border: 3px solid white;
+    border-radius: 20px;
+    margin: 22px 30px;
+    padding: 35px 30px;
+}
+
+.mid li{
+    font-size: 20px;
+    display: inline-block;
+    padding: 0px 25px;
+    /* background: -webkit-linear-gradient(0deg,rgba(255, 255, 255, 0.231), rgba(255, 255, 255, 0.25));
+    background-clip: text; */
+}
+
+.mid li a{
+    color: antiquewhite;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 5px auto;
+    padding: 25px;
+
+}
+
+.navbar li a:hover{
+    text-decoration: underline;
+    color: rgb(90, 90, 90);
+}
+
+.navbar li a.active{
+    text-decoration: underline;
+    color: rgb(90, 90, 90);
+}
+
+
+.right img {
+    margin: 0px 0px;
+    padding:2px;
+}
+
+.YT img{
+    width: 25px;
+    padding: 0px  0px ;
+}
+
+.IG img{
+    width: 20px;
+    padding: 0px 0px;
+}
+
+.flw{
+    padding: 0px 0px;
+}
+
+.about{
+    border: 2px solid;
+    border-radius: 70px;
+    height: 390px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color:rgb(84, 199, 237) ;
+}
+
+.flex1{
+    height: 500px;
+    width: 80%;
+    /* border: 2px solid royalblue; */
+    display: flex;
+    color: aliceblue;
+    margin-top: 300px;
+    margin: 120px auto;
+    /* margin-left: 150px; */
+    /* flex-direction: row; */
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    align-items: center;
+    /* align-items: flex-end; */
+}
+
+.items{
+    height: 170px;
+    width: 14%;
+    /* border: red solid; */
+    /* background-color: skyblue ; */
+    margin: 10px;
+    padding: 2px;
+    
+}
+
+.about{
+    text-align: center;
+
+}
+
+.about img{
+    width: 200px;
+    margin: auto;
+}
+
+.photu{
+    display: flex;
+    align-content: center;
+    padding-top: 15px;
+    border-radius: 125px;
+}
+
+.name{
+    background-color:antiquewhite ;
+    color: midnightblue;
+}
+
+.linkedin{
+    color: midnightblue;
+    text-decoration: none;
+    cursor: pointer;
+}

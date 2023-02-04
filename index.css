@@ -1,0 +1,217 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: url("https://www.pixelstalk.net/wp-content/uploads/2016/07/Free-Download-Plain-Wallpaper-HD.jpg") ;
+
+}
+
+.left{
+    color: white;
+    display: inline-block;
+    position: absolute;
+    margin: 0px auto;
+    padding: 0px 10px;
+    left: 20px;
+    top:20px;
+}
+
+.mid{
+    color: white;
+    /* border: solid green; */
+    display:block;
+    width: 60%;
+    margin: 12px auto; 
+}
+.right{
+    color: white;
+    /* border: solid yellow; */
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top:20px;
+}
+
+.signout{
+    text-align: right;
+    font-size: large;
+
+}
+.signout a{
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 1px 1px;
+    padding: 4px 7px;
+    color: rgb(5, 14, 128);
+    background-color: rgb(1, 100, 136);
+    border: 2px solid rgb(5, 14, 128);
+    
+}
+
+.signout a:hover{
+    background-color: rgb(5, 14, 128);
+    color: rgb(1, 100, 136);
+    border: 2px solid rgb(1, 100, 136);
+}
+
+.left img{
+    margin: 0px auto;
+    width: 80px;
+    filter: invert(100%);
+}
+
+.mid ul{
+    text-decoration: none;
+    border: 3px solid white;
+    border-radius: 20px;
+    margin: 22px 30px;
+    padding: 7px 30px;
+}
+
+.mid li{
+    font-size: 20px;
+    display: inline-block;
+    padding: 0px 25px;
+    /* background: -webkit-linear-gradient(0deg,rgba(255, 255, 255, 0.231), rgba(255, 255, 255, 0.25));
+    background-clip: text; */
+}
+
+.mid li a{
+    color: antiquewhite;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 5px auto;
+    padding: 25px;
+
+}
+
+.navbar li a:hover{
+    text-decoration: underline;
+    color: rgb(52, 51, 51);
+}
+
+.navbar li a.active{
+    text-decoration: underline;
+    color: rgb(52, 51, 51);
+}
+
+
+.right img {
+    margin: 0px 0px;
+    padding:2px;
+}
+
+.YT img{
+    width: 25px;
+    padding: 0px  0px ;
+}
+
+.IG img{
+    width: 20px;
+    padding: 0px 0px;
+}
+
+.flw{
+    padding: 0px 0px;
+}
+
+.flex{
+    height: 500px;
+    width: 100%;
+    /* border: 2px solid royalblue; */
+    color: aliceblue;
+    margin-top: 150px;
+    /* margin-left: 150px; */
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    /* align-items: center; */
+    align-items: flex-end;
+}
+
+.items{
+    height: 170px;
+    width: 14%;
+    /* border: red solid; */
+    /* background-color: skyblue ; */
+    margin: 10px;
+    padding: 2px;
+    
+}
+
+.homecontent{
+    font-size: large;
+    /* border: red 2px solid; */
+    height:600px;
+    width: 800px;
+    margin: 60px auto;
+    padding: 25px 25px;
+}
+
+.split{
+    color:antiquewhite ;
+    margin: 4px 215px;
+    padding: 1px 1px;
+}
+
+.splitbtn{
+    margin: 1px 15px;
+    padding: 5px 12px;
+    border-radius:12px;
+    background-color: #fff;
+    color: navy;
+    cursor: pointer;
+}
+
+.splitbtn:hover{
+    color: #fff;
+    background-color: navy;
+}
+
+.inex{
+    margin: 15px auto;
+    padding: 10px 10px;
+    /* border: #fff 1px solid; */
+    height: 530px;
+    width: 780px;
+}
+
+.income{
+    color:antiquewhite ;
+    height: 250px;
+    width: 600px;
+    border: gray solid 3px;
+    margin: 10px auto;
+    padding: 2px 15px;
+    border-radius: 5px;
+}
+
+.expense{
+    color:antiquewhite ;
+    height: 250px;
+    width: 600px;
+    border: gray solid 3px;
+    margin: 10px auto;
+    padding: 2px 15px;
+    border-radius: 5px;
+}
+
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+      }
+
+      canvas {
+        background: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        margin-top: 10px;
+      }
