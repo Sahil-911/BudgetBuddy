@@ -43,7 +43,7 @@ body{
     margin: 1px 1px;
     padding: 4px 7px;
     color: rgb(5, 14, 128);
-    background-color: rgb(1, 100, 136);
+    background-color: rgba(1, 100, 136, 0);
     border: 2px solid rgb(5, 14, 128);
     
 }
