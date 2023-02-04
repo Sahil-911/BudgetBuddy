@@ -32,6 +32,28 @@ body{
     top:20px;
 }
 
+.signout{
+    text-align: right;
+    font-size: large;
+
+}
+.signout a{
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 1px 1px;
+    padding: 4px 7px;
+    color: rgb(5, 14, 128);
+    background-color: rgba(1, 100, 136, 0);
+    border: 2px solid rgb(5, 14, 128);
+    
+}
+
+.signout a:hover{
+    background-color: rgb(5, 14, 128);
+    color: rgb(1, 100, 136);
+    border: 2px solid rgb(1, 100, 136);
+}
+
 .left img{
     margin: 0px auto;
     width: 80px;
@@ -121,4 +143,13 @@ body{
     margin: 10px;
     padding: 2px;
     
+}
+
+.history{
+    font-size: larger;
+    margin: 1px auto;
+    padding: 10px 10px;
+    border: 1px solid red;
+    height: 600px;
+    width: 800px;
 }

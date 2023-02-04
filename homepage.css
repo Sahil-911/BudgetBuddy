@@ -39,6 +39,9 @@ body{
 }
 .signout a{
     text-decoration: none;
+    border-radius: 10px;
+    margin: 1px 1px;
+    padding: 4px 7px;
     color: rgb(5, 14, 128);
     background-color: rgb(1, 100, 136);
     border: 2px solid rgb(5, 14, 128);
@@ -141,3 +144,68 @@ body{
     padding: 2px;
     
 }
+
+.homecontent{
+    font-size: large;
+    /* border: red 2px solid; */
+    height:600px;
+    width: 800px;
+    margin: 60px auto;
+    padding: 25px 25px;
+}
+
+.split{
+    margin: 1px 85px;
+    padding: 1px 1px;
+}
+
+.splitbtn{
+    margin: 1px 15px;
+    padding: 5px 12px;
+    border-radius:12px;
+    background-color: #fff;
+    color: navy;
+    cursor: pointer;
+}
+
+.splitbtn:hover{
+    color: #fff;
+    background-color: navy;
+}
+
+.inex{
+    margin: 15px auto;
+    padding: 10px 10px;
+    /* border: #fff 1px solid; */
+    height: 530px;
+    width: 780px;
+}
+
+.income{
+    height: 250px;
+    width: 600px;
+    border: gray solid 1px;
+    margin: 10px auto;
+    padding: 2px 15px;
+}
+
+.expense{
+    height: 250px;
+    width: 600px;
+    border: gray solid 1px;
+    margin: 10px auto;
+    padding: 2px 15px;
+}
+
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+      }
+
+      canvas {
+        background: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+      }
